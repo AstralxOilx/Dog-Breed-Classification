@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['beagle', 'bulldog', 'husky', 'poodle', 'rottweiler']
+
+roboflow:
+  workspace: dog-bmzig
+  project: abcd-iizjo
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dog-bmzig/abcd-iizjo/dataset/1
